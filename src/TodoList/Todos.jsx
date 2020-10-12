@@ -24,7 +24,8 @@ export default function Todos(props){
                           {
                               display:'flex',
                               lineHeight:'80px',
-                              justifyContent:'space-around'
+                              justifyContent:'space-around',
+                              borderBottom:'1px solid gray'
                           }
                       }>
                           <span style={{
