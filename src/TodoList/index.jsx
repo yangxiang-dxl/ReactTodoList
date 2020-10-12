@@ -15,7 +15,7 @@ export default class TodoList extends Component{
         }
     }
     componentDidMount(){
-       if(localStorage.getItem('todolist')[0])
+       if(localStorage.getItem('todolist'))
             this.setState({
                 todolist:localStorage.getItem('todolist').split(',') 
             })
